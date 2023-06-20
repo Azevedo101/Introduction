@@ -1,0 +1,16 @@
+namespace Teste;
+
+class Program
+
+{
+    static void Main(string[] args)
+    {
+        string pessoa = "Anderson";
+        switch (pessoa)
+        {
+            case "Felipe": Console.WriteLine("Não"); break;
+            case "Anderson": Console.WriteLine("Sim"); break;
+            default: Console.WriteLine("Não"); break;
+        }
+    }
+}
