@@ -1,0 +1,17 @@
+namespace Teste;
+
+class Program
+
+{
+    static void Main(string[] args)
+    {
+
+        int numero = 0;
+        if (numero == 1)
+        {
+            Console.WriteLine("Correto");
+        }
+
+        Console.WriteLine("Errado");
+    }
+}
