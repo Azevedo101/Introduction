@@ -1,0 +1,13 @@
+namespace Teste;
+class Program
+{
+    static void Main(string[] args)
+    {
+        int numero = 0;
+        do
+        {
+            Console.WriteLine("Anderson tonto " + numero);
+            numero++;
+        } while (numero < 5);
+    }
+}
